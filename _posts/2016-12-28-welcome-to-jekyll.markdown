@@ -24,6 +24,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+
 {% if page.comments %}
 <div id="disqus_thread"></div>
 <script>
@@ -44,5 +45,5 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
          (d.head || d.body).appendChild(s);
          })();
  </script>
- <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>)
+ <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
  {% endif %}
