@@ -34,12 +34,15 @@ abstract class My {
 
 Poly.java:
 
+```Java
 class Poly extends My {
     public static void main(String a[]) {
         My m = new My() {};
         m.myMethod();
     }
 }
+```
+
 Now, compile both your source files:
 
 javac My.java Poly.java
