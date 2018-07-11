@@ -24,11 +24,14 @@ To practically see that the class being instantiated is an Anonymous SubClass, y
 
 My.java:
 
+```Java
 abstract class My {
     public void myMethod() {
         System.out.print("Abstract");
     }
 }
+```
+
 Poly.java:
 
 class Poly extends My {
