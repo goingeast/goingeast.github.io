@@ -1,7 +1,6 @@
-# Git Cheatsheet
 
 - Git configuration
-~~~bash
+``` bash
 #options
 --global #全局变量
 --local #单独本地项目
@@ -13,10 +12,10 @@ git config --global core.editor vim #编辑器
  
 git config --global alias.st status #按这种方法，配置别名
 git config -l #列举所有配置
-~~~
+```
 
 - Git basic workflow
-~~~bash
+``` bash
 #将工作区的修改提交到暂存区
 git add <file>
 git add . 
@@ -69,20 +68,20 @@ git commint -m "message" #提交版本库
  
 #关于git rm的其他补充
 git rm --cached <file> #从暂存区中除去该文件，git将不再跟踪该文件的变更，但仍然在工作区内，在需要.gitignore时经常用到
-~~~
+```
 
 - File diff
-~~~bash
+```bash
 git diff
 git diff <file> #比较工作区与暂存区文件的差异
 git diff --cached   # 比较暂存区和版本库差异
  
 git diff <$id1> <$id2>   # 比较两次提交之间的差异
 git diff <branch1>..<branch2> # 在两个分支之间比较
-~~~
+```
 
 - Branch
-~~~bash
+```bash
 git branch -r #查看远程分支
 git branch new_branch_name #新建一个分支
 git branch --merged #查看已经被合并到当前分支的分支
@@ -99,29 +98,29 @@ git push origin :branch-name #删除远程分支（先在本地删除该分支�
 git checkout -b not_master_branch  origin/not_master_branch #本地创建一个分支，指向对应的远程分支
 git pull origin not_master_branch #将远程的not_master_branch分支pull下来
 git push origin not_master_branch #将修改后的not_master_branch分支push到远程的not_master_branch
-~~~
+```
 
 - Tag
-~~~bash
+```bash
 git tag v1.0.0 [SHA] #打一个轻量级的tag，只是一个commit的指向引用,[SHA]是可选择值（某个commit的SHA），指定为哪个commit打tag，如果没写则直接为最后一个commit打tag
 git tag -a v1.0.0 -m "你的附注信息" [SHA] #一个带附注信息的tag，不是一个简单的引用，而是单独的一个对象，[SHA]是可选择值（某个commit的SHA），指定为哪个commit打tag，如果没写则直接为最后一个commit打tag
 git tag #列出所有的tag
 git show v1.0.0  #打印指定tag的信息
 git tag -d v1.0.0 #删除本地指定tag
 git push origin :refs/tags/v1.0.0 #删除远程tag
-~~~
+```
 
 - Remote
-~~~bash
+```bash
 git remote -v                    # 查看远程服务器地址和仓库名称
 git remote show origin           # 查看远程服务器仓库状态
 git remote add origin git@github:robbin/robbin_site.git         # 添加远程仓库地址
 git remote set-url origin git@github.com:robbin/robbin #修改远程地址
 git remote rm #删除远程创库地址
-~~~
+```
 
 - Pull, Push to remote repo
-~~~bash
+```bash
 git pull #=git fetch + git merge
 git fetch #拉取
 git merge #合并
@@ -134,27 +133,27 @@ git push -u origin master        # 将本地主分支推到远程(如无远程�
 git push origin <local_branch>   # 创建远程分支， origin是远程仓库名
 git push origin <local_branch>:<remote_branch>  # 创建远程分支
 git push origin :<remote_branch>  #先删除本地分支(git br -d <branch>)，然后再push删除远程分支
-~~~
+```
 
 - Local change stash
-~~~bash
+```bash
 git stash #将工作区做的修改暂存到一个git栈中
 git stash list #查看栈中所有暂存
 git stash apply <暂存编号> #回复对应编号暂存到工作区，如果不指定编号为栈顶的，注意：这些暂存还在栈中
 git stash pop #将栈顶的暂存，恢复到工作区，并从栈中弹出
 git stash clear #清空暂存栈
-~~~
+```
 
 - Create remote repo
-~~~bash
+```bash
 git clone --bare git_url_path #clone的时候，将其创建成远程创库
 git --bare init #初始化项目的时候，创建成远程创库
-~~~
+```
 
 - Create and apply patch
-~~~bash
+```bash
 git format-patch -1 <commit SHA>
 
 git apply --check <patchfile> # 检查有没有错误
 git am --3way <patchfile> # 使用patch, 作用类似rebase. git会自动跳过已用patch
-~~~
+```
