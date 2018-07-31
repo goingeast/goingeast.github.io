@@ -1,5 +1,5 @@
 ---
-categories: 资源
+categories: Git
 ---
 
 - Git configuration
