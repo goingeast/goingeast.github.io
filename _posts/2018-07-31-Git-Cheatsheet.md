@@ -1,7 +1,7 @@
 
 - Git configuration
 
-``` bash
+```bash
 #options
 --global #全局变量
 --local #单独本地项目
@@ -17,7 +17,7 @@ git config -l #列举所有配置
 
 - Git basic workflow
 
-``` bash
+```bash
 #将工作区的修改提交到暂存区
 git add <file>
 git add . 
