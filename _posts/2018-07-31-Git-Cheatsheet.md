@@ -154,6 +154,6 @@ git --bare init #初始化项目的时候，创建成远程创库
 ```bash
 git format-patch -1 <commit SHA>
 
-git apply --check <patchfile> # 检查有没有错误
-git am --3way <patchfile> # 使用patch, 作用类似rebase. git会自动跳过已用patch
+git apply --check <patchfile> #检查有没有错误
+git am --3way <patchfile> #使用patch, 作用类似rebase. git会自动跳过已用patch
 ```
