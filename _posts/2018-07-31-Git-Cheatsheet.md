@@ -96,6 +96,7 @@ git branch --no-merged #查看未被合并到当前分支的分支
  
 git checkout branch_name #切换分支
 git checkout -b branch_name #创建分支并切换
+git reset --hard origin/master # reset to remote repo
  
 git branch -d branch_name #删除分支
 git branch -D branch_name #强制删除分支
