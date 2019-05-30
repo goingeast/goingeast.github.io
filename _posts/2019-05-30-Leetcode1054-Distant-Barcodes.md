@@ -37,7 +37,6 @@ Leetcode 621 Task Scheduler
 ### Template
 
 ``` java
-
 class Solution {
     public int[] rearrangeBarcodes(int[] barcodes) {
         if(barcodes == null || barcodes.length == 0)
