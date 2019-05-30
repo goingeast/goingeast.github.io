@@ -27,7 +27,7 @@ Output: [1,3,1,3,2,1,2,1]
 - Heap method. Using template below. Basically, we are doing similar thing as the first greedy approach. 
   1. we put {element, frequency} to a max heap sorted by the frequency. 
   2. we keep popping K (here K is 2) elements from the heap and put to the result, then we decrease the frequency of the popped elements.
-  3. goto step i. , push back to heap.  
+  3. goto step 1, push back to heap.  
   
 
 ### Similar Questions
