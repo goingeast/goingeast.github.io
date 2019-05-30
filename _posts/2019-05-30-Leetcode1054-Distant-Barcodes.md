@@ -21,7 +21,8 @@ Output: [1,3,1,3,2,1,2,1]
 1 <= barcodes[i] <= 10000  
 
 
-### Solutions
+### Solutions  
+
 * Primitive idea, like greedy. As there is a guaranteed answer, we just get the most frequent element and fill in odd position first and then even position one by one.
 
 * Heap method. Using template below. Basically, we are doing similar thing as the first greedy approach. 
