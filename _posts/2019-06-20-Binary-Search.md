@@ -48,4 +48,16 @@ int binarySearch(vector<int>& sortedIncreasingData, int target) {
 
 These four keys are very important. ALL other questions are evolved from it.  
 
-## How to solve problems using BS  
+## How to solve problems using BS
+- [Easy] The input data is sorted obviously or can be sorted, and just need find the target within the requirement.
+	- [Leetcode34 Find First and Last Position of Element in Sorted Array](www.strstr.io/)
+	- [Leetcode35 Search Insert Position](www.strstr.io/)
+	- [Leetcode74 Search a 2D Matrix](www.strstr.io/)
+	- [Leetcode350 Intersection of Two Arrays II](www.strstr.io/)
+	- [Leetcode167 Two Sum II - Input array is sorted](www.strstr.io/)
+	- [Leetcode706 Binary Search](www.strstr.io)
+	- [Leetcode278 First Bad Version](www.strstr.io)
+	- [Leetcode702 Search in a Sorted Array of Unkown Size](www.strstr.io)
+- [Medium] The input data is partially sorted, we can use sorted part to decide to which half to eliminate
+- [Medium] Need figure out a check function to decide to which half to eliminate.
+- [Hard] Use binary search to find a solution of problem, instead of brute force all the solution space.
