@@ -19,14 +19,12 @@ categories: Leetcode
 
 ### Solutions  
 
-* Primitive idea, like greedy. As there is a guaranteed answer, we just get the most frequent element and fill in odd position first and then even position one by one.
-
-* Heap method. Using template below. Basically, we are doing similar thing as the first greedy approach. 
+- Primitive idea, like greedy. As there is a guaranteed answer, we just get the most frequent element and fill in odd position first and then even position one by one.
+- Heap method. Using template below. Basically, we are doing similar thing as the first greedy approach. 
   1. we put {element, frequency} to a max heap sorted by the frequency. 
   2. we keep popping K (here K is 2) elements from the heap and put to the result, then we decrease the frequency of the popped elements.
   3. goto step 1, push back to heap.  
   
-
 ### Similar Questions
 Leetcode 358 Rearrange String  
 Leetcode 621 Task Scheduler  
