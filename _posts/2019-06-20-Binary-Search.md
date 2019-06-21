@@ -1,3 +1,7 @@
+---
+categories: Leetcode
+---
+
 # Binary Search
 @[leetcode, algorithm, job interview]
 ## Introduction
