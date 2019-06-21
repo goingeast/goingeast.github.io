@@ -27,15 +27,15 @@ int binarySearch(vector<int>& sortedIncreasingData, int target) {
     int left = 0;
     int right = sortedData.size() - 1;
     
-    while(left <= right) {                         /*❶*/
+    while(left <= right) {                     /*❶*/
       int mid = left + (right - left) / 2;
-          if(sortedData[mid] == target) {          /*❷*/
-              return mid;
-          } else if(sortedData[mid] < target) {    /*❸*/
-              left = mid + 1;                      /*❹*/
-          } else {
-              right = mid - 1;                     /*❹*/
-          }
+      if(sortedData[mid] == target) {          /*❷*/
+          return mid;
+      } else if(sortedData[mid] < target) {    /*❸*/
+          left = mid + 1;                      /*❹*/
+      } else {
+          right = mid - 1;                     /*❹*/
+      }
       }
     return -1;
 }
