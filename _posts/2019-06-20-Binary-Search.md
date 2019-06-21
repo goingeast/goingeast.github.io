@@ -8,7 +8,7 @@ In this video, we gonna discuss binary search (BS) as below.
 - Key points of BS code
 - How to solve problems using BS
 - Examples
-- Template code
+- Template code  
 
 ## Typical use case of binary search?  
 Here is a quote from wikipedia:
@@ -17,7 +17,7 @@ Here is a quote from wikipedia:
 From the describtion above, we have to get three keys:
 1. Data is **sorted**.
 2. **Half of data is eliminated** due to missing some condition.
-3. **Repeat** the process until **target is found** or **meet end condition**.
+3. **Repeat** the process until **target is found** or **meet end condition**.  
 
 ## Key points of BS code  
 With the three key points in mind, let see how our code implements these.
@@ -46,6 +46,6 @@ int binarySearch(vector<int>& sortedIncreasingData, int target) {
 ③ Condition to eliminate a half data.  
 ④ Move left or right index,  so that the data at mid index can move close to target. Quiz: why mid + 1 or mid - 1, why not mid?
 
-These four keys are very important. ALL other questions are evolved from it.
+These four keys are very important. ALL other questions are evolved from it.  
 
 ## How to solve problems using BS  
