@@ -31,7 +31,7 @@ The missing numbers are [3,5,6,7,...], hence the third missing number is 6.
 
 ## Solution
 Use binary search. This question belongs to the third kind of binary search, we need find a condition to eliminate half of the data. Lets see one example:  
-![Alt text](../media/pic/1561252357374.png)  
+![Alt text](../media/pic/1060_1.png)  
 If K = 3,  we will stop at number 9. 
 if K = 4, we will stop at number 13.
 
