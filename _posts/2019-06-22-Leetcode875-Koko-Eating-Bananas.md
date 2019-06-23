@@ -1,6 +1,6 @@
 ---
 categories: Leetcode
-tags: binary-search
+tags: binarySearch
 ---
 
 ## Description
