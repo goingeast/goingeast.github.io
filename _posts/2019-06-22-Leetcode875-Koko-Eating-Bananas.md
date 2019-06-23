@@ -1,6 +1,7 @@
 ---
 categories: Leetcode
-___
+tags: binary search
+---
 
 ## Description
 >Koko loves to eat bananas.  There are N piles of bananas, the i-th pile has piles[i] bananas.  The guards have gone and will come back in H hours.
