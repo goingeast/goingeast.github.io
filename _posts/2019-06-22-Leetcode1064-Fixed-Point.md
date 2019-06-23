@@ -1,5 +1,5 @@
 ---
-categories: leetcode
+categories: Leetcode
 ---
 
 ## Description
