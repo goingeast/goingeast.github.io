@@ -57,8 +57,8 @@ These four keys are very important. ALL other questions are evolved from it.
 	- [Leetcode167 Two Sum II - Input array is sorted](www.strstr.io/)
 	- [Leetcode706 Binary Search](www.strstr.io)
 	- [Leetcode278 First Bad Version](www.strstr.io)
-	- [Leetcode702 Search in a Sorted Array of Unkown Size](www.strstr.io)
-	_ [Leetcode1064 Fixed Point](https://strstr.io/Leetcode1064-Fixed-Point/)
+	- [Leetcode702 Search in a Sorted Array of Unkown Size](www.strstr.io)  
+	- [Leetcode1064 Fixed Point](https://strstr.io/Leetcode1064-Fixed-Point/)
 - [Medium] The input data is partially sorted, we can use sorted part to decide to which half to eliminate
 - [Medium] Need figure out a check function to decide to which half to eliminate.
 	- [Leetcode1060 Missing Element in Sorted Array](https://strstr.io/Leetcode1060-Missing-Element-in-Sorted-Array/)
