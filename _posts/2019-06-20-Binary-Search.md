@@ -60,4 +60,5 @@ These four keys are very important. ALL other questions are evolved from it.
 	- [Leetcode702 Search in a Sorted Array of Unkown Size](www.strstr.io)
 - [Medium] The input data is partially sorted, we can use sorted part to decide to which half to eliminate
 - [Medium] Need figure out a check function to decide to which half to eliminate.
+	- [Leetcode1060 Missing Element in Sorted Array](https://strstr.io/Leetcode1060-Missing-Element-in-Sorted-Array/)
 - [Hard] Use binary search to find a solution of problem, instead of brute force all the solution space.
