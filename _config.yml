@@ -3,10 +3,9 @@ permalink: /:title/
 url: http://strstr.io
 name: STRSTR.IO
 author: StrSTR
-email: haoru.zhao@gmail.com
 github: goingeast
 safe: true
 paginate: 20
-about: "<br />这里包含了部分个人的“折腾”过程、结论和成果，切换到分类模可以更快地找到感兴趣的内容，欢迎观赏、建议、拍砖……"
+about: "Stay hungry, stay foolish."
 
 theme: jekyll-theme-midnight
