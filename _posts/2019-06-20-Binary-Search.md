@@ -46,6 +46,58 @@ int binarySearch(vector<int>& sortedIncreasingData, int target) {
 ③ Condition to eliminate a half data.  
 ④ Move left or right index,  so that the data at mid index can move close to target. Quiz: why mid + 1 or mid - 1, why not mid?
 
+Variant 1
+Find lower bound element to meet the condition. eg. [Leetcode162 Find Peak Element](https://strstr.io/Leetcode162-Find-Peak-Element/)
+``` cpp
+class Solution {
+public:
+    int findPeakElement(vector<int>& nums) {
+        int left = 0;
+        int right = nums.size() -1;
+        while(left < right){                    /*❶*/
+            int mid = left + (right - left)/2;
+            if(nums[mid] >= nums[mid+1]){       /*❷*/
+                right = mid;                    /*❷*/
+            }else {
+                left = mid+1;
+            }
+        }
+        return left;
+    }
+};
+```
+Variant 2
+Adding post processing of the condidates at index left and right. eg. [Closest In Sorted Array](https://strstr.io/Closest-In-Sorted-Array/)
+``` cpp
+class Solution {
+ public:
+  int solve(vector<int> input, int target) {
+    if(input.size() == 0)
+      return -1;
+    
+    int left = 0;
+    int right = input.size() -1;
+    
+    while(left < right -1){            /*❶*/
+      int mid = (right+left)/2;
+      if(target == input[mid]){
+        return mid;
+      }else if(target > input[mid]){
+        left = mid;                   /*❷*/
+      }else{
+        right = mid;
+      }
+    }
+    // post processing.               /*❸*/
+    if(abs(input[left] - target) < abs(input[right] - target)){
+      return left;
+    }else{
+      return right;
+    }
+  }
+};
+```
+
 These four keys are very important. ALL other questions are evolved from it.  
 
 ## How to solve problems using BS
