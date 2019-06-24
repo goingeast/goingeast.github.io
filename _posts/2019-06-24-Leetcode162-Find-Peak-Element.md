@@ -51,4 +51,5 @@ public:
 ❶, ❷: all are key attributes of lower bound binary search template.
 
 ## Insight
-This question is the second kind of question in the [summary](https://strstr.io/Binary-Search/), data is somehow partially sorted, but we can still leverage it by using binary search.
+This question is the second kind of question in the [summary](https://strstr.io/Binary-Search/), data is somehow partially sorted, but we can still leverage it by using binary search.  
+[Leetcode852 Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) is exactly same question using exactly same code.
