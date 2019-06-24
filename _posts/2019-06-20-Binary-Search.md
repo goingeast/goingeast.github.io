@@ -61,6 +61,7 @@ These four keys are very important. ALL other questions are evolved from it.
 	- [Leetcode1064 Fixed Point](https://strstr.io/Leetcode1064-Fixed-Point/)
 - [Medium] The input data is partially sorted, we can use sorted part to decide to which half to eliminate
 	- [Leetcode162 Find Peak Element](https://strstr.io/Leetcode162-Find-Peak-Element/)
+	- [Leetcode852 Peak Index in a Mountain Array](https://strstr.io/Leetcode162-Find-Peak-Element/)
 - [Medium] Need figure out a check function to decide to which half to eliminate.
 	- [Leetcode1060 Missing Element in Sorted Array](https://strstr.io/Leetcode1060-Missing-Element-in-Sorted-Array/)
 - [Hard] Use binary search to find a solution of problem, instead of brute force all the solution space.
