@@ -70,31 +70,31 @@ Variant 2
 Adding post processing of the condidates at index left and right. eg. [Closest In Sorted Array](https://strstr.io/Closest-In-Sorted-Array/)
 ``` cpp
 class Solution {
- public:
-  int solve(vector<int> input, int target) {
-    if(input.size() == 0)
-      return -1;
-    
-    int left = 0;
-    int right = input.size() -1;
-    
-    while(left < right -1){            /*❶*/
-      int mid = (right+left)/2;
-      if(target == input[mid]){
-        return mid;
-      }else if(target > input[mid]){
-        left = mid;                   /*❷*/
-      }else{
-        right = mid;
-      }
+public:
+    int solve(vector<int> input, int target) {
+        if (input.size() == 0)
+            return -1;
+
+        int left = 0;
+        int right = input.size() - 1;
+
+        while (left < right - 1) {            /*❶*/
+            int mid = (right + left) / 2;
+            if (target == input[mid]) {
+                return mid;
+            } else if (target > input[mid]) {
+                left = mid;                   /*❷*/
+            } else {
+                right = mid;
+            }
+        }
+        // post processing.                   /*❸*/
+        if (abs(input[left] - target) < abs(input[right] - target)) {
+            return left;
+        } else {
+            return right;
+        }
     }
-    // post processing.               /*❸*/
-    if(abs(input[left] - target) < abs(input[right] - target)){
-      return left;
-    }else{
-      return right;
-    }
-  }
 };
 ```
 
