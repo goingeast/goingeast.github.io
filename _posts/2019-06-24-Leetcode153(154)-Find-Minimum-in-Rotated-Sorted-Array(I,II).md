@@ -32,11 +32,14 @@ public:
                 right = mid;
             } else if(nums[mid] > nums[right]) {
                 left = mid + 1;
+            } else {
+                right--;                       /*❸*/
             }
         }
         return nums[left];                     /*❷*/
     }
 };
 ```
-❶ it means the part [mid, right] is sorted and we are sure the smallest element is in [left, mid], also there is no duplication elements, we don't have to check if nums[mid] == nums[right].  
-❷ return the lower bound element
+❶ Tt means the part [mid, right] is sorted and we are sure the smallest element is in [left, mid], also there is no duplication elements, we don't have to check if nums[mid] == nums[right].  
+❷ Return the lower bound element
+❸ Follow up question leetcode154. with duplication, add have to add this condition to remove the duplicates.
