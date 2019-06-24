@@ -1,6 +1,7 @@
 ---
 layout: default
 comments: true
+advertise: true
 ---
 <section class="meta">
 <span class="time">
@@ -40,4 +41,8 @@ comments: true
 </section>
 {% if page.comments %}
 {% include comments.md %}
+{% endif %}
+
+{% if page.advertise %}
+{% include advertisements.html %}
 {% endif %}
