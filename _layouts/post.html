@@ -38,8 +38,5 @@ comments: true
 	<a {% if page.next %} href="{{ page.next.url }}" class="pageNav"{% endif %} {% unless page.next %} class="pageNavInvalid" {% endunless %} >Next Post</a>
 </span>
 </section>
-{% if page.comments %}
 {% include comments.md %}
-{% endif %}
-
 {% include advertisement.html %}
