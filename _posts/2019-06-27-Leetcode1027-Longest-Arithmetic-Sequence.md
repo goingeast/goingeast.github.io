@@ -22,10 +22,10 @@ Explanation:
 The longest arithmetic subsequence is [20,15,10,5].
 
 ## Solution
-Use dynamic programming. This problem belongs to the second type of [DP](strstr.io) problem. Linear scan back the small result.   
-$$dp[k][j]  = \max \limits_{j = 0 \dots i} dp[k][j]  \text { at index i} \tag{1}$$
+Use dynamic programming. This problem belongs to the second type of [DP](strstr.io) problem. Linear scan back the small result.
 
-$$dp[k][j]\text{ means the max length of sequence ended at index i with arithmetic difference k, j is in [0, i]} \tag{1}$$
+$$dp[k][j]  = \max \limits_{j = 0 \dots i} dp[k][j]  \text { at index i} \tag{1}$$
+dp[k][j] means the max length of sequence ended at index i \break with arithmetic difference k, j is in [0, i].
 
 
 ## Code
