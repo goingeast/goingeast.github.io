@@ -58,7 +58,7 @@ We are keep tracking the binary search tree question, I will try to categorize e
 |101|   Symmetric Tree|XXX|	
 |102|   Binary Tree Level Order Traversal|XXX|	
 |103|   Binary Tree Zigzag Level Order Traversal|XXX|	
-|104|	Maximum Depth of Binary Tree|后序，从下往上返回值|	
+|104|	Maximum Depth of Binary Tree|post-order，bottom up|	
 |105|	Construct Binary Tree from Preorder and Inorder Traversal|XXX|	
 |106|	Construct Binary Tree from Inorder and Postorder Traversal|XXX|
 |107|	Binary Tree Level Order Traversal II|XXX|	
@@ -70,7 +70,7 @@ We are keep tracking the binary search tree question, I will try to categorize e
 |114|	Flatten Binary Tree to Linked List|XXX|
 |116|	Populating Next Right Pointers in Each Node|XXX|
 |117|	Populating Next Right Pointers in Each Node|XXX|
-|124|	Binary Tree Maximum Path Sum|后序，从下往上返回值，并更新结果|	
+|124|	Binary Tree Maximum Path Sum|post-order，bottom up，update result|	
 |129|	Sum Root to Leaf Numbers|XXX|
 |144|	Binary Tree Preorder Traversal|XXX|
 |145|	Binary Tree Postorder Traversal|XXX|
