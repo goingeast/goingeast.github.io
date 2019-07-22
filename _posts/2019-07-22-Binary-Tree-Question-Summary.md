@@ -22,7 +22,7 @@ So for a tree as below, we can have three traverse result:
 pre-order: [5, 4, 2, 0, 1, 6, 3]  
 in-order: [2, 0, 4, 1, 5, 6, 3]  
 post-order: [0, 2, 1, 4, 3, 6, 5]  
-And level order traverse is simple: [3, 4, 6, 2, 1, 3, 0]  
+And level order traverse is simple: [5, 4, 6, 2, 1, 3, 0]  
 
 ## Categories of binary tree question
 - General binary tree/binary search tree recursive question.
