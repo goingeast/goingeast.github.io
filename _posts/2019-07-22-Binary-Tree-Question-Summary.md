@@ -31,12 +31,12 @@ Eg. Check valid BST( leetcode 98)
 	- pass the result value from bottom to top.  
 Eg. Get Height of the tree. Check tree is balanced (leetcode 110). Check tree is symmetric (leetcode 101). Assign the value of each node to be the total number of nodes that belong to its left substree.  
 	- Pass the help value from bottom to top, and meanwhile update the result according to the help value. Most hard problem can be done by this approach. and there are many questions in leetcode you can practice.  
-- Rebuild tree
+- Rebuild tree  
 Use two kinds of traverse result to rebuild the tree.
-- Serialize the tree structure.
-- Binary search tree
-To use BST properties to solve the problem.
-- Level order traverse question
+- Serialize the tree structure.  
+- Binary search tree  
+To use BST properties to solve the problem.  
+- Level order traverse question  
 
 ## Key points
 1. Have to decide **which kind of traverse** we gonna use.
