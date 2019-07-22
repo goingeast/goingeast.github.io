@@ -38,6 +38,6 @@ public:
     }
 };
 ```
-❶ key is the sum value at current index, value is the number of current sum value.
-❷ check if we have a right value, conforms sum(current) - sum(aValue) = K.
-❸ update the map states.
+❶ key is the sum value at current index, value is the number of current sum value.  
+❷ check if we have a right value, conforms sum(current) - sum(aValue) = K.  
+❸ update the map states.  
