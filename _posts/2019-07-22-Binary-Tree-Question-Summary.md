@@ -1,4 +1,6 @@
-#Binary Tree Question Summary
+---
+categories: Leetcode
+---
 ## Traverse of the binary tree
 In general, there are fours ways to traverse a tree, they are pre-order, in-order, post-order, and level-order. For the first three ways, we can do it clearly by using recursive as below.
 ```cpp
@@ -11,9 +13,9 @@ void traverseTree(TreeNode* root) {
 	cout << root->value;      /*❸*/
 }
 ```
-❶ visit root value here is pre-order
-❷ visit root value here is in-order
-❸	visit root value here is post-order
+❶ visit root value here is pre-order  
+❷ visit root value here is in-order  
+❸ visit root value here is post-order  
 ![Alt text](../media/pic/bt_summary.png)
 So for a tree as below, we can have three traverse result:
 pre-order: [5, 4, 2, 0, 1, 6, 3]
@@ -34,6 +36,7 @@ Use two kinds of traverse result to rebuild the tree.
 - ##### Serialize the tree structure.
 - ##### Binary search tree
 To use BST properties to solve the problem.
+- ##### Level order traverse question
 
 ## Key points
 1. Have to decide **which kind of traverse** we gonna use.
