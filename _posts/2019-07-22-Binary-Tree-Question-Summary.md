@@ -15,9 +15,10 @@ void traverseTree(TreeNode* root) {
 ```
 ❶ visit root value here is pre-order  
 ❷ visit root value here is in-order  
-❸ visit root value here is post-order   
-<img src ="../media/pic/bt_summary.png"  width="400">  
+❸ visit root value here is post-order 
 So for a tree as below, we can have three traverse result:  
+<img src ="../media/pic/bt_summary.png"  width="350">  
+
 pre-order: [5, 4, 2, 0, 1, 6, 3]  
 in-order: [2, 0, 4, 1, 5, 6, 3]  
 post-order: [0, 2, 1, 4, 3, 6, 5]  
