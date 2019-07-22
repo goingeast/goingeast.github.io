@@ -49,7 +49,7 @@ Eg. What values we need to return? how we update the result value? What relation
 We are keep tracking the binary search tree question, I will try to categorize each question. Another thing good to mention is many question can be solve in different way, but they all fits in categories we talked above.
 
 | ID |Question | Type |
-| ----------- | ----------- | ----------- |
+| :-----------: | :-----------: | :-----------: |
 |94|    Binary Tree Inorder Traversal| XXX|
 |95|    Unique Binary Search Trees II|XXX|	
 |96|    Unique Binary Search Trees|XXX|	
