@@ -16,27 +16,27 @@ void traverseTree(TreeNode* root) {
 ❶ visit root value here is pre-order  
 ❷ visit root value here is in-order  
 ❸ visit root value here is post-order  
-![Alt text](../media/pic/bt_summary.png)
-So for a tree as below, we can have three traverse result:
-pre-order: [5, 4, 2, 0, 1, 6, 3]
-in-order: [2, 0, 4, 1, 5, 6, 3]
-post-order: [0, 2, 1, 4, 3, 6, 5]
-And level order traverse is simple: [3, 4, 6, 2, 1, 3, 0]
+![Alt text](../media/pic/bt_summary.png)  
+So for a tree as below, we can have three traverse result:  
+pre-order: [5, 4, 2, 0, 1, 6, 3]  
+in-order: [2, 0, 4, 1, 5, 6, 3]  
+post-order: [0, 2, 1, 4, 3, 6, 5]  
+And level order traverse is simple: [3, 4, 6, 2, 1, 3, 0]  
 
 ## Categories of binary tree question
-- ##### General binary tree/binary search tree recursive question.
+- General binary tree/binary search tree recursive question.
 Almost 99% of the binary tree question can be solved in recursive way. And there are three kind of question in general.     
 	- pass the result value from top down to bottom.  
 Eg. Check valid BST( leetcode 98)  
 	- pass the result value from bottom to top.  
 Eg. Get Height of the tree. Check tree is balanced (leetcode 110). Check tree is symmetric (leetcode 101). Assign the value of each node to be the total number of nodes that belong to its left substree.  
 	- Pass the help value from bottom to top, and meanwhile update the result according to the help value. Most hard problem can be done by this approach. and there are many questions in leetcode you can practice.  
-- ##### Rebuild tree
+- Rebuild tree
 Use two kinds of traverse result to rebuild the tree.
-- ##### Serialize the tree structure.
-- ##### Binary search tree
+- Serialize the tree structure.
+- Binary search tree
 To use BST properties to solve the problem.
-- ##### Level order traverse question
+- Level order traverse question
 
 ## Key points
 1. Have to decide **which kind of traverse** we gonna use.
