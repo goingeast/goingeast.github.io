@@ -23,7 +23,7 @@ First, we should know what's the meaning of the median. Here is the quote from w
 > The median is the value separating the higher half from the lower half of a data sample.
 So for the odd number of data element, the median will be the mid element. For the even number of data element, the median will be the average of mid two elements. Lets take the example from wiki:
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Finding_the_median.png/1920px-Finding_the_median.png" width= "360", height= "250">  
+![wiki](./media/pic/Finding_the_median.png)  
 
 After we know the definition of median, lets think about how can we find the median in two sort arrays. If it is one sorted array, we just need find one separating position in that array which is the mid position. So in two sorted array, what we need to do is find two separating positions in two arrays, which we can get two merged parts from two array with same size. Then we can simply calculate the median by the mid elements.  
 
