@@ -1,3 +1,7 @@
+---
+categories: Leetcode
+tag: A
+---
 
 ## Description
 >Given a target integer T and an integer array A sorted in ascending order, find the index i in A such that A[i] is closest to T.
