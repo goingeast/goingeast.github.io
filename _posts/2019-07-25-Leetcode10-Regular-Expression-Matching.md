@@ -6,8 +6,8 @@ tags: F
 ## Description
 >Given an input string (s) and a pattern (p), implement regular expression matching with support for '.' and '*'.
 >
->'.' Matches any single character.
-'*' Matches zero or more of the preceding element.
+> '.' Matches any single character.  
+'*' Matches zero or more of the preceding element.  
 The matching should cover the entire input string (not partial).
 >
 >Note:
@@ -55,6 +55,7 @@ $$dp[i][j] = \begin{cases}
 dp[i-1][j-1] \wedge (p[j-1] =s[i-1] \vee p[j-1]= '.') &  \text{ if } p[i-1]!= '*' \\ 
  dp[i][j-2] \vee (dp[i-1][j] \wedge (p[j-2] = s[i-1] \vee p[j-2]='.'))& \text{ if } p[i-1]='*';
 \end{cases}$$  
+
 The first case is easy to understand. Let check the second case, if p[j-1] = '*' and we use * to match zero time, dp[i][j] = dp[i][j-2], it is because we want to match zero time, which (x*) is not useful and can be discarded. eg. aa* matches a. if we want to match more then zero times, which (x*) can be use multiple times. So if dp[i][j] = dp[i-1][j] &s[i-1] = p[j-2]. eg, aa* matches aaa, aa* doesn't match abaa. 
 
 Also for all the dot, we can think of it equals to any character. please go through the example below to fully understand it.
