@@ -9,7 +9,7 @@ comments: true
 {% if page.categories.size != 0 %}
  | 
 <span class="categories">
-  分类
+  categories
   {% for cat in page.categories %}
   <a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
   {% endfor %}
@@ -18,7 +18,7 @@ comments: true
 {% if page.tags.size != 0 %}
  | 
 <span class="tags">
-  标签
+  tag
   {% for tag in page.tags %}
   <a href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
   {% endfor %}
