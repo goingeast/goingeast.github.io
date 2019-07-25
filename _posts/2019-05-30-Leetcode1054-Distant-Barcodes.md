@@ -1,5 +1,6 @@
 ---
 categories: Leetcode
+tag: A
 ---
 ### Description
 
