@@ -1,11 +1,10 @@
-#2019-07-25-Leetcode3-Longest Substring Without Repeating Characters
-
 ---
 categories: Leetcode
 tags: F
 ---
 
 ## Description
+
 > Given a string, find the length of the longest substring without
 > repeating characters.
 > 
@@ -18,7 +17,7 @@ tags: F
 > length of 1. Example 3:
 > 
 > Input: "pwwkew" Output: 3 Explanation: The answer is "wke", with the
-> length of 3. 
+> length of 3.   
 > Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
 ## Solution
