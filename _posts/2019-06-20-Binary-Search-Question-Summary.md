@@ -47,7 +47,8 @@ int binarySearch(vector<int>& sortedIncreasingData, int target) {
 ④ Move left or right index,  so that the data at mid index can move close to target. Quiz: why mid + 1 or mid - 1, why not mid?
 
 Variant 1
-Find lower bound element to meet the condition. eg. [Leetcode162 Find Peak Element](https://strstr.io/Leetcode162-Find-Peak-Element/)
+Find lower bound element to meet the condition. eg. [Leetcode162 Find Peak Element](https://strstr.io/Leetcode162-Find-Peak-Element/).  
+Find upper bound element, in ❷, change to ```nums[mid] > nums[mid+1]```
 ``` cpp
 class Solution {
 public:
